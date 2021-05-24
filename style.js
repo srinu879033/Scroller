@@ -1,4 +1,5 @@
 let root=document.getElementById("root");
+console.log(root)
 let loading=document.getElementById("loading");
 getBlog();
 getBlog();
