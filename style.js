@@ -16,7 +16,7 @@ async function getBlog(){
        
         method:"GET",  
     }
-     const response=await fetch(`http://jsonplaceholder.typicode.com/posts/${randomNumber}`);
+     const response=await fetch(`https://jsonplaceholder.typicode.com/posts/${randomNumber}`);
      const data1=await response.json()
      const response2=await fetch("https://randomuser.me/api");
      const data2=await response2.json()
